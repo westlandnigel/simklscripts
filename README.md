@@ -22,19 +22,19 @@ This script exports all items from a specific **Letterboxd list**.
 ### 4. `Letterboxd reviews on Simkl (Userscript).js`
 A user script designed to enhance **Simkl** by displaying **Letterboxd reviews** on Simkl pages.
 - Works with **Tampermonkey** or similar browser extensions.
-- Adds a section on Simkl to show relevant reviews from Letterboxd for movies and shows.
+- Adds a section on Simkl to show relevant reviews from Letterboxd for movies. Shows don't yet until Letterboxd implements TV
 
 ## Usage Instructions
 
 ### 1. Export Letterboxd Data
-Run `exportLetterboxdHistory.py` to generate a JSON file containing all your Letterboxd data.
+Run `exportLetterboxdHistory.py` to generate a csv file containing all your Letterboxd data.
 
 ### 2. Import Data into Simkl
 - Edit `importLetterboxdintoSimkl.py` with your Simkl `client_id` and TMDB API key.
 - Run the script to import your history into Simkl.
 
 ### 3. Export a Letterboxd List
-Use `exportLetterboxdList.py` to extract all items from a specific Letterboxd list for further use.
+Use `exportLetterboxdList.py` to extract all items from a specific Letterboxd list in a .csv file
 
 ### 4. Enhance Simkl with Letterboxd Reviews
 - Install **Tampermonkey** or a similar userscript manager.
